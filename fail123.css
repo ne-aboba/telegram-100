@@ -1,0 +1,87 @@
+
+
+body {
+    background-color: rgba(216, 243, 255, 0.768);
+    /*background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAVmTKAisR6j-W_ikM6GgYQ6IreDzTnyqbXMuvw32jLg&s=10');
+    background-size: cover;*/
+    }
+
+
+.text-pr {
+    color: green;
+    text-align: center;
+}
+
+#text1 {
+
+    background: rgb(158, 253, 158);
+    height: 100%;
+    border: 5px solid rgb(158, 175, 180);
+    border-radius: 1px 45px 50px 50px;
+    opacity: 0.9;
+    margin: 5px;
+    padding: 11px;
+
+    display: block;
+
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    font-family: "Caveat", cursive;
+    text-transform: none;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    line-height: 15px;
+}
+ol li:not(:empty) {
+    color: blue;
+}
+
+ul li {
+    color: rgb(30, 255, 0);
+    cursor: pointer;
+}
+
+th, td {
+    color: blueviolet;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 187, 255);
+    cursor: pointer;
+}
+
+ul li:active {
+    text-decoration-line: line-through;
+    cursor: pointer;
+}
+
+input:focus {
+    color: brown;
+}
+
+/*#text1::after {
+    content: '67676767';
+}
+
+#text1::before {
+    content: '67676767';
+}*/
+
+a::after {
+    content: attr(href);
+}
+
+
+p:first-of-type {
+    color: darkorchid;
+}
