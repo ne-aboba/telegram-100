@@ -85,3 +85,7 @@ a::after {
 p:first-of-type {
     color: darkorchid;
 }
+
+#часы::before {
+    content: 'Глобальное время: ';
+}
