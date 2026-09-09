@@ -7,7 +7,7 @@ function time_html() {
     time = (time - sek) / 60;
     let min = String(time % 60);
     time = (time - min) / 60;
-    let hour = String(time % 24);
+    let hour = String((time % 24)+3);
     time = (time - hour) / 24;
 
     sek = zero(sek);
